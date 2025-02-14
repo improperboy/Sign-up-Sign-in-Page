@@ -6,8 +6,8 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     const password = document.getElementById('loginPassword').value;
 
     // Predefined admin credentials
-    const adminEmail = 'manasomar@gmail.com';
-    const adminPassword = 'manas123';
+    const adminEmail = 'adminemail@gmail.com';
+    const adminPassword = 'admin';
 
     // Check if entered credentials match the admin credentials
     if (email === adminEmail && password === adminPassword) {
